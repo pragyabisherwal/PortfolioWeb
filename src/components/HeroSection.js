@@ -18,7 +18,7 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 3rem;
-    margin-bottom: -8rem;
+    margin-bottom: -9rem;
     position: relative;
     span {
       display: inline-block;
