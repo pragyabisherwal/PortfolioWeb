@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about.jpg';
+import AboutImg from '../assets/images/heroiii.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 // import ContactBanner from '../components/ContactBanner';
 
@@ -64,6 +64,22 @@ const AboutPageStyles = styled.div`
     border-radius: 12px;
     box-shadow: 2.5px 3px var(--orange);
   }
+  .button {
+    font-size: 2.7rem;
+    font-weight: bolder;
+    background-color: ${(props) =>
+      props.outline ? 'transperant' : 'var(--white)'};
+    padding: 0.7em 2em;
+
+    border: 5px solid orange;
+    border-radius: 10px;
+
+    display: inline-block;
+    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+  }
+  .button:hover {
+    background-color: #43c943;
+  }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
     .top-section {
@@ -90,6 +106,12 @@ const AboutPageStyles = styled.div`
         left: auto;
       }
     }
+    .button {
+      font-size: 1.8rem;
+    }
+    .button:hover {
+      background-color: #43c943;
+    }
   }
 `;
 
@@ -106,15 +128,18 @@ export default function About() {
               <h2 className="about__heading">Web Developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  I am from Delhi, India. A place of beauty and nature.I am a
+                  student of Computer Science from India. I am an individual who
+                  is Innovative and passionate about the use of technology to
+                  solve the world's biggest challenges. A creative and strategic
+                  thinker with an emphasis on design and user-experience. I also
+                  love to create things that can be usefull to others.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  Web developer with front-end development experience.
+                  Motivated, ambitious, and passionate about building great
+                  products.I want to code things, help people with their
+                  problems, and learn to build better communities.Developing new
+                  technologies to make programming easier and more enjoyable.
                   <br />
                   <br />
                   My vision is to make the world a better place. Now almost
@@ -123,7 +148,16 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a
+                href="https://drive.google.com/file/d/1be7BUNq2snGMx0F8jHYvM90ElFoSsYzY/view?usp=sharing"
+                rel="noreferrer"
+                target="_blank"
+                btnText="Download CV"
+                className="button"
+              >
+                RESUME
+              </a>
+              {/* <Button btnText="Download CV" btnLink="#" /> */}
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -132,18 +166,17 @@ export default function About() {
           <div className="about__info__items">
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
-
               <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                title="College"
+                items={['Delhi Technological University (COE)']}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                title="AISSSE(12)"
+                items={['Mother Divine Public School']}
               />
               <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="AISSE(10)"
+                items={['Mother Divine Public School']}
               />
             </div>
             <div className="about__info__item">
@@ -151,32 +184,20 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACTJS']}
               />
-              <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
-              />
-              <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
-              />
+              <AboutInfoItem title="BackEnd" items={['Node', 'PHP']} />
+              <AboutInfoItem title="Design" items={['Canva', 'Figma']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
+              <AboutInfoItem title="10-2021" items={['Enactus India']} />
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="11-2021"
+                items={['Global Peace Foundation INDIA']}
               />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
-              />
+              <AboutInfoItem title="12-2021" items={['Careers 360']} />
             </div>
           </div>
         </div>

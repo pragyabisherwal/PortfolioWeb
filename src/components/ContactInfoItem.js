@@ -4,11 +4,12 @@ import styled from 'styled-components';
 import PText from './PText';
 
 const ItemStyles = styled.div`
-  padding: 2rem;
+  padding: 2rem 1rem;
   background-color: var(--off_orange);
+
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 0.5rem;
   border-radius: 8px;
   margin-bottom: 2rem;
   font-weight: bolder;

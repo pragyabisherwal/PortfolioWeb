@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/EDUMAIN.png';
 import Button from './Button';
@@ -160,8 +160,7 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               An enthusiastic fresher with highly motivated and leadership
-              skills having bachelors of engineering degree in Computer
-              Engineering.
+              skills having bachelors of engineering degree in Computer Science.
             </PText>
 
             <Button btnLink="/projects" btnText="See My Work" />

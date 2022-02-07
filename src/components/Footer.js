@@ -114,15 +114,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+919810933427',
+                path: 'tel:+919810933427',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'pragyabisherwal@gmail.com',
+                path: 'mailto:pragyabisherwal@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Delhi,India',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -152,7 +152,11 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2022 - Pragya Bisherwal | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/pragya-bisherwal-40aa75212/"
+            >
               PragyaBisherwal
             </a>{' '}
           </PText>
