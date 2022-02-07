@@ -80,15 +80,15 @@ export default function AboutSection() {
             heading="About me"
           />
           <PText>
-            I am a fresher currently pursuing my B.TECH.I have keen interest in
-            website designing and developing.I am from from Delhi, India. To
-            tackle problems, I take a creative approach. I am a gifted,
-            ambitious, and industrious individual with extensive programming,
-            web development, social media marketing, and content writing talents
-            with a genuine interest. In addition, I am capable of managing and
-            performing well under pressure. Communication is a critical
-            strength, as is creating great relationships with others in order to
-            get the best results.
+            I am a fresher currently pursuing my B.TECH in Computer Science.I
+            have keen interest in website designing and developing.I am from
+            from Delhi, India. To tackle problems, I take a creative approach. I
+            am a gifted, ambitious, and industrious individual with extensive
+            programming, web development, social media marketing, and content
+            writing talents with a genuine interest. In addition, I am capable
+            of managing and performing well under pressure. Communication is a
+            critical strength, as is creating great relationships with others in
+            order to get the best results.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Works" />

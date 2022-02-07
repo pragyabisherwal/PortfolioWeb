@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/EDUMAIN.png';
 import Button from './Button';
@@ -162,6 +163,7 @@ export default function HeroSection() {
               skills having bachelors of engineering degree in Computer
               Engineering.
             </PText>
+
             <Button btnLink="/projects" btnText="See My Work" />
           </div>
         </div>
