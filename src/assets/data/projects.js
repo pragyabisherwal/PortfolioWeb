@@ -1,45 +1,45 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import blog from '../images/blog.jpg';
+import cybersecurity from '../images/cybersecurity.jpg';
+import education from '../images/edu.jpg';
+import weather from '../images/weather.jpg';
+import portfolio from '../images/portfolio.jpg';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Cyber Defender',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'A website for encrypting your data and providing efficient protection against data leakage.',
+    img: cybersecurity,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'ProjectShut',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'A website for assisting students developing their personal projects.Have courses on the same.',
+    img: education,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'WeatherForecaster',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'A website which forecasts weather using an open weather API and django in backend.',
+    img: weather,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: 'Pragya Portfolio',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      'A portfolio website is the ultimate way to showcase your work and let others reach out for you.It is made using ReactJS',
+    img: portfolio,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'Blog Application',
     desc:
-      'A tracking website that will show the performance of the website and some useful advice to improve the performance.',
-    img: ProjectImg,
+      'A Blog website developed using django to share personal experience and lessons to help peers.',
+    img: blog,
   },
 ];
 
