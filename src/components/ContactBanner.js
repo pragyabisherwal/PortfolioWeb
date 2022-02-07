@@ -6,7 +6,7 @@ import PText from './PText';
 const ContactBannerStyles = styled.div`
   padding: 5rem 0;
   .contactBanner__wrapper {
-    background-color: var(--deep-dark);
+    background-color: var(--off_orange);
     border-radius: 12px;
     padding: 5rem 0rem;
     text-align: center;
@@ -27,8 +27,10 @@ export default function ContactBanner() {
     <ContactBannerStyles>
       <div className="container">
         <div className="contactBanner__wrapper">
-          <PText>Have a project in mind</PText>
+          <PText>Want To Connect</PText>
+
           <h3 className="contactBanner__heading">Let me help you</h3>
+
           <Button btnText="Contact Now" btnLink="/contact" />
         </div>
       </div>
