@@ -35,7 +35,7 @@ const HeroStyles = styled.div`
   .hero__img {
     max-width: 900px;
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: -9rem auto;
   }
   .hero__info {
